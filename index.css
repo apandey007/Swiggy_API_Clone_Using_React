@@ -1,0 +1,142 @@
+.container1{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  /* margin: 0px; */
+}
+
+.listContainer > ul{
+  display: flex;
+  font-size: large;
+  padding-top: 10px;
+}
+.listContainer > ul >li{
+  list-style: none;
+  margin: 5px;
+}
+.imgContainer{
+  padding-left: 20px;
+}
+.listContainer{
+  padding-right: 20px;
+}
+.container2 {
+  display: flex;
+  /* margin: 10px; */
+}
+.filter{
+  margin: 10px;
+  width: 150px;
+  cursor: pointer;
+}
+.search{
+  margin: 10px;
+}
+.container3 {
+  border: 1px solid black;
+  width: 250px;
+  height: 400px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 50px;
+}
+.cardImage > img{
+  width: 249px;
+  height: 200px;
+}
+p{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imageRes{
+  width: 90px;
+  height: 80px;
+}
+.imgContainer{
+  display: flex;
+}
+.logoText{
+  padding-top: 15px;
+}
+.cardsBody{
+  display: flex;
+  flex-wrap: wrap;
+}
+.sfContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.container5{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container6{
+  width: 250px;
+  height: 400px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 75px 50px;
+}
+.login{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.container7{
+  justify-content: center;
+  text-align: center;
+}
+.errorDetails{
+  color: red;
+}
+.restraDetails{
+  background-color: #f0f0f0;
+  width: 800px;
+  height: 250px;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+.container8{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.restraMenuList{
+  /* display: flex; */
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  /* margin: 100px; */
+}
+.container10{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  border: 1px solid black;
+  height: 250px;
+}
+.menuDetails{
+  margin: 10px 20px;
+  /* color: red; */
+}
+.menuImage {
+  border: 1px solid black;
+  height: 150px;
+  width: 220px;
+  margin-top: 3.5%;
+  margin-right: 5%;
+}
+.menuImageNew{
+  height: 150px;
+  width: 220px;
+  /* margin-top: 0.5%; */
+  margin-right: 5%;
+}
+.heading{
+  padding-top: 1px;
+  text-align: center;
+}
