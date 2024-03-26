@@ -30,38 +30,40 @@ const Menu = () => {
         ?.card?.itemCards
     );
   };
+
   return menuVal1.length === 0 ? (
     <Shimmer />
   ) : (
     <>
-      <div className="container8">
+      <div className="container8 mt-5">
         <div className="restraDetails">
-          <h2>Restaurant Name: {menuVal1.name}</h2>
-          <h3>{menuVal1.cuisines.join(", ")}</h3>
-          <h3>Area: {menuVal1.areaName}</h3>
-          <h3>
+          <h2 className="text-xl font-bold my-3">Restaurant Name: {menuVal1.name}</h2>
+          <span className="font-semibold">Cuisines: {menuVal1.cuisines.join(", ")}, </span>
+          <span className="font-semibold">Area: {menuVal1.areaName}, </span>
+          <span className="font-semibold">
             Locality: {menuVal1.slugString}, {menuVal1.locality},{" "}
-            {menuVal1.city}
-          </h3>
-          <h3>AvgRating: {menuVal1.avgRating}K</h3>
-          <button
+            {menuVal1.city}, </span>
+          <span className="font-semibold">{menuVal1.avgRating}K Ratings</span>
+          {/* <button
             className="menuButton"
             onClick={() => {
               console.log(menuVal2);
             }}
           >
             MenuList
-          </button>
+          </button> */}
         </div>
       </div>
-      <div className="restraMenuList">
+      {/* <div className="restraMenuList">
         <div className="heading">
           <h1> Top Recommended FoodItems: </h1>
         </div>
         {menuVal2.map((menuList) => (
           <MenuList key={menuList?.card?.info?.name} resMenu={menuList} />
         ))}
-      </div>
+      </div> */}
+
+
     </>
   );
 };

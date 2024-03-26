@@ -1,7 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .container1{
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   /* margin: 0px; */
 }
 
@@ -35,14 +38,16 @@
 .container3 {
   border: 1px solid black;
   width: 250px;
-  height: 400px;
+  height: 380px;
   background-color: #f0f0f0;
+  border-radius: 7px;
   padding: 10px;
   margin: 50px;
 }
 .cardImage > img{
   width: 249px;
   height: 200px;
+  border-radius: 7px;
 }
 p{
   display: flex;
@@ -91,26 +96,12 @@ p{
   color: red;
 }
 .restraDetails{
-  background-color: #f0f0f0;
-  width: 800px;
-  height: 250px;
-  justify-content: center;
-  padding-left: 100px;
-  padding-top: 10px;
+  text-align: center;
 }
 .container8{
   display: flex;
   justify-content: center;
-  margin: 50px;
-}
-.restraMenuList{
-  /* display: flex; */
-  justify-content: center;
-  background-color: #f0f0f0;
-  height: 100%;
-  width: 100%;
-  margin-top: 20px;
-  /* margin: 100px; */
+  
 }
 .container10{
   display: flex;
@@ -125,6 +116,7 @@ p{
 }
 .menuImage {
   border: 1px solid black;
+  border-radius: 10px;
   height: 150px;
   width: 220px;
   margin-top: 3.5%;
@@ -133,10 +125,7 @@ p{
 .menuImageNew{
   height: 150px;
   width: 220px;
+  border-radius: 10px;
   /* margin-top: 0.5%; */
   margin-right: 5%;
-}
-.heading{
-  padding-top: 1px;
-  text-align: center;
 }

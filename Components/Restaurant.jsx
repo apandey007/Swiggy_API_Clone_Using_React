@@ -27,10 +27,10 @@ const Restaurant = (props) => {
           </div>
           <div className="details">
             {/* //Dynameic details */}
-            <h3><Link to={"/menu/"+id}>{name}</Link></h3>
-            <p>Ratings:  {avgRating}K</p>
-            <p id="cuisine">Cuisines:  {cuisines.join(", ")}</p>
-            <p>Cost:  {costForTwo}</p>
+            <h2 className="font-bold text-xl my-2 border-b-2 text-center"><Link to={"/menu/"+id}>{name}</Link></h2>
+            <p className="font-semibold">Ratings:  {avgRating}K</p>
+            <p className="font-semibold" id="cuisine">Cuisines:  {cuisines.join(", ")}</p>
+            <p className="font-semibold">Cost:  {costForTwo}</p>
           </div>
         </div>
       </div>
