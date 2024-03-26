@@ -33,7 +33,7 @@ const Body = () => {
   return resList?.length === 0 ? (
     <Shimmer />
   ) : (
-    <div className="container4">
+    <div className="container4 mt-3">
       <div className="sfContainer">
         <div className="filter font-semibold">
           <button
